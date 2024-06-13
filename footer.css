@@ -1,0 +1,33 @@
+footer{
+    background-color: #FAFAFF;
+    margin: 0px -50px;
+    padding: 30px 0px;
+}
+.footer-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+}
+.con1{
+    width: 25%;
+}
+.con1 p{
+    color: #B6B6B6;
+}
+
+
+
+@media only screen and (min-width:200px) and (max-width: 920px) {
+    footer{
+        margin: 0px -10px;
+        padding: 10px 0px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .con1{
+        width: 100%;
+    }
+    
+}

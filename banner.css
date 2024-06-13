@@ -1,0 +1,371 @@
+/* nav bar start */
+
+.nav-container{
+   
+    margin: auto;
+    margin-top: 40PX;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.search{
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-bottom: 0px;
+    box-shadow: 0.1em 0 1em rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.search-logo{
+    margin-left: 10px;
+    margin-top:18px;
+    height: 20px;
+    
+    
+}
+.search-bar{
+    border: none;
+    border-right: 1px solid;
+    font-size: 18px;
+    width: 70%;
+    
+    
+}
+.cart{
+    margin-top:18px;
+   
+    position: relative;
+}
+.cart-notification{
+    position: absolute;
+    bottom:18px;
+    right: -30px;
+    
+}
+.notification-number{
+    position: absolute;
+    bottom:31px;
+    right: -3px;
+    font-size: 10px;
+    color: white;
+
+}
+/* nav bar end */
+
+/* Banner start */
+
+.title-desc-order-contailer{
+    background-image: url(./logo/Abstract-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    /* Delivery button */
+.del-options{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(245, 221, 196, 1);
+    color: rgba(244, 142, 40, 1);
+    width: 15%;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+}
+.del-options img{
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+    /* Delivery button end*/
+
+    .title-desc-order-contailer{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    /* banner left side start */
+.banner-left-side{
+    width: 70%;
+}
+.banner-left-side h1{
+    font-size: 96px;
+}
+.banner-left-side span{
+    color:var(--font-secondary-color)
+}
+.banner-left-side p{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+}
+.order-btns{
+    display: flex;
+}
+.order-btns button{
+    font-size: 26px;
+    font-weight: 700;
+    height: 50%; 
+
+}
+
+#or-btn-1{
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(239, 171, 104, 1), rgba(244, 142, 40, 1));
+    padding: 33px 67px 33px 67px;
+    color: white;
+}
+
+.or-btn-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+#or-btn-img{
+    height: 100px;
+}
+
+#or-btn-2{
+    background-color: white;
+    border: none;
+    padding: 33px 67px 33px 0px;
+    
+}
+/* banner left side end */
+/* banner right side start */
+.banner-right-side{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap:0px;
+    row-gap: 10px;
+}
+.bn-product{
+
+   
+   width: 100%;
+   height: 60%;
+   box-shadow:0.1em 0 1em rgba(0, 0, 0, 0.1) ;
+   
+
+}
+#bn-img{
+    
+    width:50%;
+    margin: auto;
+}
+#bn-img-inner{
+    position: relative;
+    top:-60px;
+    left: -40px;
+    height: 150px;
+    width: 150px;
+}
+#bn-decsupr{    
+    position: relative;
+    bottom: 90px;
+}
+.bn-desc{
+  
+    text-align: center;
+   
+}
+.bn-desc span{
+    color:red;
+}
+
+/* Banner end */
+
+
+
+
+/* contact tile start */
+
+.time-address-contact{
+    width: 85%;
+    padding: 35px 5px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0.1em 0 1em rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.mid{
+
+    border-left: 1px solid #B6B6B6;
+    border-right: 1px solid #B6B6B6;
+
+}
+
+
+.logo-text-upr{
+    text-align: center;
+    width: 33%;
+}
+.logo-text-upr p{
+    font-size: 14px;
+}
+
+.img-holder1{
+    background-color: #F48E28;
+    background-image: url(./logo/time-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.img-holder2{
+    background-color: #F48E28;
+    background-image: url(./logo/loc-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.img-holder3{
+    background-color: #F48E28;
+    background-image: url(./logo/call-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+
+/* contact tile end */
+
+
+@media only screen and (min-width:200px) and (max-width: 920px) {
+    /* Nav bar start*/
+    
+    
+    .nav h1{
+        font-size: 13px ;
+    }
+        
+    /* Nav bar end*/
+}
+
+@media only screen and (min-width:200px) and (max-width: 808px) {
+    /* Nav bar start*/
+    
+    .nav{
+        flex-direction: column;
+        
+    }
+   
+    .nav-logo{
+        width: 30%;
+    }
+    .search{
+        justify-content: flex-start;
+        gap: 5px;
+        
+     }
+     .search-logo{
+        margin-left: 10px;
+        margin-top:5px;
+        height: 20px;
+        
+        
+    }
+    .search-bar{
+        width: 75%;
+    }
+    .cart{
+        margin-top:5px;
+       
+    }
+    .cart-notification{
+        position: absolute;
+        bottom:-4px;
+        right: -28px;
+        
+    }
+    .notification-number{
+        position: absolute;
+        bottom:10px;
+        right: -1px;
+        font-size: 10px;
+        color: white;
+    
+    }
+
+    /* Nav bar end*/
+
+    /* Banner start */
+
+    .del-options{
+        
+        width: 40%;
+        
+    }
+    .title-desc-order-contailer{
+        flex-direction: column;
+    }
+    .title-desc-order-contailer{
+        
+        background-position:top;
+    }
+    .banner-left-side{
+        width: 100%;
+    }
+    .banner-left-side h1{
+        font-size: 36px;
+    }
+    .order-btns button{
+        font-size: 15px;
+        height: 20%;
+    
+    }
+    #or-btn-1{
+        
+        padding: 20px 35px 20px 35px;
+
+    }
+    #or-btn-img{
+        height: 85px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    #or-btn-2{
+        padding: 20px 35px 20px 0px;
+        
+    }
+    #bn-img-inner{
+        position: relative;
+        top:-60px;
+        left: -25px;
+        height: 150px;
+        width: 150px;
+    }
+    #bn-decsupr{    
+        position: relative;
+        bottom: 100px;
+    }
+    
+    /* Banner end */
+    /* contact tile */
+    .time-address-contact{
+        
+        flex-direction: column;
+        align-items: center;
+    }
+    .mid{
+        border: none;
+        border-top: 1px solid #B6B6B6;
+        border-bottom: 1px solid #B6B6B6;
+    
+    }
+    .logo-text-upr{
+        padding:10px 0px ;
+    }
+}

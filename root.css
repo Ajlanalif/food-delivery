@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --background-color: #1E1E1E;
+    --font-secondary-color: #F48E28;
+    --font-primary-color:  #FFFFFF;
+    --shadow-color: #ADADAD;
+
+}
+
+
+body{
+    margin: 0px 50px;
+}
+
+.start{
+    margin-top: 40px;
+    height: 100%;
+     
+}
+*{
+    font-family: Montserrat;
+}
+
+
+@media only screen and (min-width:200px) and (max-width: 920px) {
+    body{
+        margin: 10px;
+    }
+    
+}

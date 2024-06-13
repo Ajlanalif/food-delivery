@@ -1,0 +1,257 @@
+.title{
+    text-align: center;
+}
+.title h5{
+    color:#F48E28;
+}
+
+
+/* products start */
+.food-box-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    
+    
+}
+.food-box{
+    width: 80%;
+    box-shadow: 0.1em 0 1em rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#product-img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.food-box-text{
+    display: flex;
+    justify-content: space-between;
+}
+.text-box-left button{
+    background-color: #F48E28;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    padding: 10px;
+}
+.text-box-right{
+    margin-top: 20px;
+}
+.morebtn{
+    
+    width: 25%;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+.morebtn button{
+    margin: 0px auto;
+    display: block;
+    background-color: #F48E28;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    padding: 10px;
+    font: 20px;
+}
+/* products end */
+
+
+/* Service start */
+.service-logo-text-upr{
+    padding: 30px;
+    text-align: center;
+    width: 25%;
+    border: 1px solid #ADADAD;
+    border-radius: 20px;
+}
+.service-logo-desc{
+    width: 85%;
+    padding: 35px 5px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-logo-text-upr:hover{
+    border: none;
+    background-color: white;
+    box-shadow: 0.2em 0 2em rgba(0, 0, 0, 0.1);
+    
+}
+.service-img-holder1{
+    background-color: #F5DDC4;
+    background-image: url(./service/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.service-img-holder2{
+    background-color: #F5DDC4;
+    background-image: url(./service/2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.service-img-holder3{
+    background-color: #F5DDC4;
+    background-image: url(./service/3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: inline-block;
+}
+/* Service end */
+
+
+
+/* testimonial start */
+.cmnt-pic-container{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    
+}
+.testi-cmnt-container{
+    
+    width: 45%;
+    text-align: center;
+    box-shadow: 0.2em 0 2em rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.testi-comment{
+    width: 90%;
+    margin: auto;
+}
+.name-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+
+}
+.testi-pic-container img{
+    height: 300px;
+}
+
+
+
+/* testimonial end */
+
+
+/* newsletter start */
+.newsletter-container{
+    margin: auto;
+    margin-top: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    border-radius: 60px;
+    width: 80%;
+}
+
+.nw-text{
+    margin-top: 80px;
+    color: white;
+}
+.subs{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* newsletter end */
+
+
+
+@media only screen and (min-width:200px) and (max-width: 768px) {
+    /* product start */
+    
+    .food-box-container{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        font-size: 10px;        
+    }
+    .text-box-left button{
+        font-size: 10px;
+    }
+    #product-img{
+       height: 100px;
+    }
+    
+    .morebtn button{
+        margin: auto;
+        font: 15px;
+    }
+    /* product end */
+    /* Service start */
+    .service-logo-text-upr{
+        width: 60%;
+    }
+    .service-logo-desc{
+       gap: 5px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    
+    /* Service end */
+    /* Testimonial start */
+    .cmnt-pic-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content:center ;
+        
+    }
+    .testi-cmnt-container{
+    
+        width: 80%;
+        
+    }
+    .testi-pic-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .testi-pic-container img{
+       height: 150px;
+       
+    }
+    /* Testimonial end */
+   
+    /* newsletter start */
+
+    .newsletter-container{
+        flex-direction: column;
+        justify-content: center;
+        gap:0px;
+        padding:60px 30px;
+    }
+    .newsletter-container img{
+        height: 200px;
+        width: 50%;
+        margin: auto;
+    }
+     /* newsletter end */
+}

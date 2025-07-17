@@ -1,32 +1,34 @@
-.title{
+.title {
     text-align: center;
 }
-.title h5{
-    color:#F48E28;
+
+.title h5 {
+    color: #F48E28;
 }
 
 
 /* products start */
 
-.product{
+.product {
     padding: 60px 20px;
     margin: 40px 0;
 }
 
-.product-title{
+.product-title {
     margin-bottom: 50px;
 }
 
-.food-box-container{
+.food-box-container {
     width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     padding: 40px 20px;
-    
+
 }
-.food-box{
+
+.food-box {
     width: 100%;
     height: 350px;
     box-shadow: 0.1em 0 1em rgba(0, 0, 0, 0.1);
@@ -40,12 +42,12 @@
     flex-direction: column;
 }
 
-.food-box:hover{
+.food-box:hover {
     transform: translateY(-5px);
     box-shadow: 0.2em 0 2em rgba(0, 0, 0, 0.15);
 }
 
-#product-img{
+#product-img {
     width: 100%;
     height: 200px;
     border-top-left-radius: 10px;
@@ -54,7 +56,7 @@
     flex-shrink: 0;
 }
 
-.food-box-text{
+.food-box-text {
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;
@@ -63,7 +65,7 @@
     align-items: flex-start;
 }
 
-.text-box-left{
+.text-box-left {
     padding-right: 15px;
     flex: 1;
     display: flex;
@@ -71,7 +73,7 @@
     justify-content: space-between;
 }
 
-.text-box-left h3{
+.text-box-left h3 {
     margin: 0 0 15px 0;
     font-size: 1.1rem;
     color: #333;
@@ -81,7 +83,7 @@
     white-space: nowrap;
 }
 
-.text-box-left button{
+.text-box-left button {
     background-color: #F48E28;
     border: none;
     border-radius: 100px;
@@ -93,12 +95,12 @@
     margin-top: auto;
 }
 
-.text-box-left button:hover{
+.text-box-left button:hover {
     background-color: #e67e22;
     transform: scale(1.05);
 }
 
-.text-box-right{
+.text-box-right {
     margin-top: 20px;
     text-align: right;
     padding-left: 15px;
@@ -109,25 +111,26 @@
     min-width: 80px;
 }
 
-.text-box-right img{
+.text-box-right img {
     width: 16px;
     height: 16px;
     margin-bottom: 5px;
 }
 
-.text-box-right p{
+.text-box-right p {
     margin: 10px 0 0 0;
     font-weight: bold;
     color: #F48E28;
     font-size: 1.1rem;
 }
-.morebtn{
+
+.morebtn {
     width: 25%;
     margin: 50px auto 0 auto;
     padding: 20px 0;
 }
 
-.morebtn button{
+.morebtn button {
     margin: 0px auto;
     display: block;
     background-color: #F48E28;
@@ -141,23 +144,25 @@
     transition: all 0.3s ease;
 }
 
-.morebtn button:hover{
+.morebtn button:hover {
     background-color: #e67e22;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(244, 142, 40, 0.3);
 }
+
 /* products end */
 
 
 /* Service start */
-.service-logo-text-upr{
+.service-logo-text-upr {
     padding: 30px;
     text-align: center;
     width: 25%;
     border: 1px solid #ADADAD;
     border-radius: 20px;
 }
-.service-logo-desc{
+
+.service-logo-desc {
     width: 85%;
     padding: 35px 5px;
     margin: auto;
@@ -166,13 +171,14 @@
     justify-content: space-between;
 }
 
-.service-logo-text-upr:hover{
+.service-logo-text-upr:hover {
     border: none;
     background-color: white;
     box-shadow: 0.2em 0 2em rgba(0, 0, 0, 0.1);
-    
+
 }
-.service-img-holder1{
+
+.service-img-holder1 {
     background-color: #F5DDC4;
     background-image: url(./service/1.png);
     background-position: center;
@@ -182,7 +188,8 @@
     border-radius: 100%;
     display: inline-block;
 }
-.service-img-holder2{
+
+.service-img-holder2 {
     background-color: #F5DDC4;
     background-image: url(./service/2.png);
     background-position: center;
@@ -192,7 +199,8 @@
     border-radius: 100%;
     display: inline-block;
 }
-.service-img-holder3{
+
+.service-img-holder3 {
     background-color: #F5DDC4;
     background-image: url(./service/3.png);
     background-position: center;
@@ -202,35 +210,40 @@
     border-radius: 100%;
     display: inline-block;
 }
+
 /* Service end */
 
 
 
 /* testimonial start */
-.cmnt-pic-container{
+.cmnt-pic-container {
     display: flex;
     justify-content: center;
-    gap:20px;
-    
+    gap: 20px;
+
 }
-.testi-cmnt-container{
-    
+
+.testi-cmnt-container {
+
     width: 45%;
     text-align: center;
     box-shadow: 0.2em 0 2em rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
-.testi-comment{
+
+.testi-comment {
     width: 90%;
     margin: auto;
 }
-.name-image{
+
+.name-image {
     display: flex;
     flex-wrap: wrap;
-    justify-content:center ;
+    justify-content: center;
 
 }
-.testi-pic-container img{
+
+.testi-pic-container img {
     height: 300px;
 }
 
@@ -240,7 +253,7 @@
 
 
 /* newsletter start */
-.newsletter-container{
+.newsletter-container {
     margin: auto;
     margin-top: 80px;
     background-color: black;
@@ -251,11 +264,12 @@
     width: 80%;
 }
 
-.nw-text{
+.nw-text {
     margin-top: 80px;
     color: white;
 }
-.subs{
+
+.subs {
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -263,80 +277,91 @@
     padding: 10px;
     border-radius: 10px;
 }
+
 /* newsletter end */
 
 
 
 @media only screen and (min-width:200px) and (max-width: 768px) {
     /* product start */
-    
-    .food-box-container{
+
+    .food-box-container {
         width: 80%;
         margin: auto;
         display: grid;
         grid-template-columns: auto auto;
         gap: 10px;
-        font-size: 10px;        
-    }
-    .text-box-left button{
         font-size: 10px;
     }
-    #product-img{
-       height: 100px;
+
+    .text-box-left button {
+        font-size: 10px;
     }
-    
-    .morebtn button{
+
+    #product-img {
+        height: 100px;
+    }
+
+    .morebtn button {
         margin: auto;
         font: 15px;
     }
+
     /* product end */
     /* Service start */
-    .service-logo-text-upr{
+    .service-logo-text-upr {
         width: 60%;
     }
-    .service-logo-desc{
-       gap: 5px;
+
+    .service-logo-desc {
+        gap: 5px;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
     }
-    
+
     /* Service end */
     /* Testimonial start */
-    .cmnt-pic-container{
+    .cmnt-pic-container {
         flex-direction: column;
         flex-wrap: wrap;
-        align-content:center ;
-        
+        align-content: center;
+
     }
-    .testi-cmnt-container{
-    
+
+    .testi-cmnt-container {
+
         width: 80%;
-        
+
     }
+
     .testi-pic-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .testi-pic-container img{
-       height: 150px;
-       
+
+    .testi-pic-container img {
+        height: 150px;
+
     }
+
     /* Testimonial end */
-   
+
     /* newsletter start */
 
-    .newsletter-container{
+    .newsletter-container {
         flex-direction: column;
         justify-content: center;
-        gap:0px;
-        padding:60px 30px;
+        gap: 0px;
+        padding: 60px 30px;
     }
-    .newsletter-container img{
+
+    .newsletter-container img {
         height: 200px;
         width: 50%;
         margin: auto;
     }
-     /* newsletter end */
+
+    /* newsletter end */
 }

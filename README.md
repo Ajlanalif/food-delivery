@@ -158,31 +158,6 @@ food-delivery/
 3. **Functionality**: Enhance JavaScript for new features
 4. **Responsive Design**: Test across different screen sizes
 
-## 🏪 Business Information
-
-### **Restaurant Details**
-
-- **Name**: GOOD FOOD
-- **Location**: Mohammadpur, Dhaka, Bangladesh
-- **Phone**: +01700027812
-- **Operating Hours**: 10:00 AM - 10:00 PM (Daily)
-
-### **Pricing Structure**
-
-- **Currency**: Bangladeshi Taka (৳)
-- **Price Range**: ৳800 - ৳3000
-- **Delivery Fee**: ৳299
-- **Tax**: 8% on subtotal
-
-### **Featured Items**
-
-- **Burger**: ৳515 (Mushroom Sauce)
-- **Food Combo**: ৳915 (French Fries, Burgers)
-- **Pizza**: ৳615 (Chicken Cheese)
-- **Cake**: ৳815 (Dark Chocolate)
-
-## 📸 Screenshots
-
 ### **Desktop View**
 
 - Modern hero section with featured items

@@ -26,30 +26,35 @@ Visit the live website: [Good Food Delivery](https://github.com/Ajlanalif/food-d
 ## ✨ Features
 
 ### 🛒 **E-commerce Functionality**
+
 - **Complete Shopping Cart System** with add, remove, and quantity management
 - **Real-time Cart Updates** with notification badges
 - **Order Summary** with subtotal, delivery fee (৳299), and 8% tax calculation
 - **Checkout Process** with order confirmation
 
 ### 🎨 **Modern UI/UX Design**
+
 - **Responsive Design** optimized for desktop and mobile devices
 - **Professional Floating Notifications** replacing browser alerts
 - **Smooth Animations** and hover effects throughout
 - **Consistent Color Scheme** with orange/yellow branding (#F48E28)
 
 ### 🍽️ **Product Management**
+
 - **12 Food Items** with high-quality images and ratings
 - **Show More/Less Functionality** (6 items initially, expandable to 12)
 - **Uniform Product Cards** with consistent sizing and layout
 - **Star Ratings** and Bangladeshi Taka (৳) pricing
 
 ### 📱 **Interactive Features**
+
 - **Smooth Scrolling Navigation** between sections
 - **Newsletter Subscription** with email validation
 - **Search Bar** (UI ready for implementation)
 - **Cart Modal** with full-screen overlay
 
 ### 🏢 **Business Sections**
+
 - **Hero Banner** with featured menu items
 - **Services Section** highlighting quality, health, and fast delivery
 - **Customer Testimonials** with professional layout
@@ -80,17 +85,20 @@ food-delivery/
 ## 🛠️ Technologies Used
 
 ### **Frontend**
+
 - **HTML5** - Semantic markup and structure
 - **CSS3** - Modern styling with Flexbox and Grid
 - **Vanilla JavaScript** - Interactive functionality and DOM manipulation
 
 ### **Design Features**
+
 - **Responsive Design** - Mobile-first approach
 - **CSS Grid & Flexbox** - Modern layout systems
 - **CSS Animations** - Smooth transitions and effects
 - **Modular CSS** - Organized stylesheet architecture
 
 ### **Development Practices**
+
 - **Separation of Concerns** - HTML, CSS, and JS in separate files
 - **Clean Code** - Well-organized and commented code
 - **Performance Optimization** - Efficient loading and caching
@@ -99,27 +107,31 @@ food-delivery/
 ## 🚀 Installation
 
 ### **Prerequisites**
+
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - Basic understanding of HTML/CSS/JavaScript (for modifications)
 
 ### **Setup Instructions**
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/Ajlanalif/food-delivery.git
    cd food-delivery
    ```
 
 2. **Open the project**
+
    - Simply open `index.html` in your web browser
    - Or use a local server for development:
+
    ```bash
    # Using Python
    python -m http.server 8000
-   
+
    # Using Node.js
    npx http-server
-   
+
    # Using PHP
    php -S localhost:8000
    ```
@@ -132,6 +144,7 @@ food-delivery/
 ## 💻 Usage
 
 ### **For Customers**
+
 1. **Browse Menu**: Scroll through available food items
 2. **Add to Cart**: Click "Add To Cart" on desired items
 3. **Manage Cart**: Adjust quantities or remove items
@@ -139,6 +152,7 @@ food-delivery/
 5. **Newsletter**: Subscribe for deals and updates
 
 ### **For Developers**
+
 1. **Product Management**: Add new items by updating HTML and adding images
 2. **Styling**: Modify CSS files for design changes
 3. **Functionality**: Enhance JavaScript for new features
@@ -147,18 +161,21 @@ food-delivery/
 ## 🏪 Business Information
 
 ### **Restaurant Details**
+
 - **Name**: GOOD FOOD
 - **Location**: Mohammadpur, Dhaka, Bangladesh
 - **Phone**: +01700027812
 - **Operating Hours**: 10:00 AM - 10:00 PM (Daily)
 
 ### **Pricing Structure**
+
 - **Currency**: Bangladeshi Taka (৳)
 - **Price Range**: ৳800 - ৳3000
 - **Delivery Fee**: ৳299
 - **Tax**: 8% on subtotal
 
 ### **Featured Items**
+
 - **Burger**: ৳515 (Mushroom Sauce)
 - **Food Combo**: ৳915 (French Fries, Burgers)
 - **Pizza**: ৳615 (Chicken Cheese)
@@ -167,11 +184,13 @@ food-delivery/
 ## 📸 Screenshots
 
 ### **Desktop View**
+
 - Modern hero section with featured items
 - Grid layout for food products
 - Professional cart modal interface
 
 ### **Mobile View**
+
 - Responsive design with optimized layouts
 - Touch-friendly navigation and buttons
 - Stacked layout for smaller screens
@@ -179,47 +198,53 @@ food-delivery/
 ## 🎯 Key Features Breakdown
 
 ### **Shopping Cart System**
+
 ```javascript
 // Add item to cart
-addToCart(productName, price, imageSrc)
+addToCart(productName, price, imageSrc);
 
 // Update quantity
-updateQuantity(productName, newQuantity)
+updateQuantity(productName, newQuantity);
 
 // Remove item
-removeFromCart(productName)
+removeFromCart(productName);
 
 // Calculate totals
-calculateCartTotal()
+calculateCartTotal();
 ```
 
 ### **Notification System**
+
 ```javascript
 // Show floating notification
-showFloatingNotification(title, message, type, duration)
+showFloatingNotification(title, message, type, duration);
 ```
 
 ### **Responsive Design**
+
 ```css
 /* Mobile-first approach */
-@media only screen and (min-width:200px) and (max-width: 768px) {
-    /* Mobile styles */
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+  /* Mobile styles */
 }
 ```
 
 ## 🔧 Customization
 
 ### **Adding New Products**
+
 1. Add product image to `product-img/` folder
 2. Update HTML with new product card
 3. Ensure consistent pricing format: `৳XXXX`
 
 ### **Modifying Styles**
+
 - **Colors**: Update CSS variables in `root.css`
 - **Layout**: Modify grid/flexbox properties in respective CSS files
 - **Animations**: Adjust transition timings and effects
 
 ### **Enhancing Functionality**
+
 - **Payment Integration**: Add payment gateway to checkout process
 - **User Authentication**: Implement login/signup functionality
 - **Order Tracking**: Add order status and tracking features
@@ -229,12 +254,14 @@ showFloatingNotification(title, message, type, duration)
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ### **Development Guidelines**
+
 1. **Code Style**: Maintain consistent formatting and naming conventions
 2. **Comments**: Add clear comments for complex functionality
 3. **Testing**: Test across different browsers and devices
 4. **Documentation**: Update README for significant changes
 
 ### **How to Contribute**
+
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
@@ -258,6 +285,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **Ajlanalif**
+
 - GitHub: [@Ajlanalif](https://github.com/Ajlanalif)
 - Project: [food-delivery](https://github.com/Ajlanalif/food-delivery)
 
